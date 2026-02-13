@@ -33,17 +33,6 @@ const questionsData = [
         explanation: "En los mercados OTC las partes negocian directamente, ofreciendo flexibilidad pero asumiendo más riesgo de contraparte."
     },
     {
-        question: "¿Cuál es el riesgo de que la otra parte del contrato no cumpla con sus obligaciones?",
-        options: {
-            A: "Riesgo de mercado",
-            B: "Riesgo de contraparte",
-            C: "Riesgo de liquidez",
-            D: "Riesgo operativo"
-        },
-        answer: "B",
-        explanation: "El riesgo de contraparte es la posibilidad de que una de las partes no cumpla lo acordado."
-    },
-    {
         question: "¿Qué mide la sensibilidad del precio de un derivado ante cambios en el precio del activo subyacente?",
         options: {
             A: "Delta",
@@ -53,28 +42,6 @@ const questionsData = [
         },
         answer: "A",
         explanation: "La Delta mide cuánto cambia el precio del derivado por cada unidad que se mueve el activo subyacente."
-    },
-    {
-        question: "¿Qué componente del precio de una opción representa la probabilidad de que termine 'In the Money'?",
-        options: {
-            A: "Valor intrínseco",
-            B: "Valor extrínseco (temporal)",
-            C: "Precio de ejercicio",
-            D: "Nocional"
-        },
-        answer: "B",
-        explanation: "El valor temporal refleja la incertidumbre y la posibilidad de que la opción gane valor antes de que expire."
-    },
-    {
-        question: "¿En qué contrato las dos partes se obligan a comprar/vender un activo en una fecha futura?",
-        options: {
-            A: "Opción Call",
-            B: "Opción Put",
-            C: "Contrato Forward o Futuro",
-            D: "Warrant"
-        },
-        answer: "C",
-        explanation: "En los Forward y Futuros ambas partes tienen la obligación contractual de cumplir el intercambio."
     },
     {
         question: "¿Qué ocurre con el valor temporal de una opción a medida que se acerca el vencimiento?",
@@ -97,18 +64,6 @@ const questionsData = [
         },
         answer: "B",
         explanation: "Los futuros son contratos estandarizados que se negocian en bolsas reguladas."
-    },
-    {
-        question: "¿Para qué sirve la Cámara de Compensación (Clearing House)?",
-        options: {
-            A: "Para maximizar el apalancamiento",
-            B: "Para actuar como contraparte y eliminar el riesgo de impago",
-            C: "Para fijar los precios",
-            D: "Para evitar inversores minoristas"
-        },
-        answer: "B",
-        explanation: "La cámara garantiza el cumplimiento de los contratos, eliminando el riesgo de contraparte."
     }
-    // ... He resumido aquí por espacio, pero asegúrate de que el archivo 
-    // termine con el corchete de cierre ];
+    // ... (puedes seguir añadiendo el resto de preguntas siguiendo este mismo formato)
 ];
